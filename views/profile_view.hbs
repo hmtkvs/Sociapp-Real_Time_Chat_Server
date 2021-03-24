@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html  >
+<head>
+  <!-- Site made with Mobirise Website Builder v4.12.2, https://mobirise.com -->
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="generator" content="Mobirise v4.12.2, mobirise.com">
+  <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1">
+  <link rel="shortcut icon" href="/assets/images/logo.png" type="image/x-icon">
+  <meta name="description" content="Website Builder Description">
+
+  <title>Profile</title>
+  <link rel="stylesheet" href="/assets/web/assets/mobirise-icons/mobirise-icons.css">
+  <link rel="stylesheet" href="/assets/web/assets/mobirise-icons2/mobirise2.css">
+  <link rel="stylesheet" href="/assets/bootstrap/css/bootstrap.min.css">
+  <link rel="stylesheet" href="/assets/bootstrap/css/bootstrap-grid.min.css">
+  <link rel="stylesheet" href="/assets/bootstrap/css/bootstrap-reboot.min.css">
+  <link rel="stylesheet" href="/assets/tether/tether.min.css">
+  <link rel="stylesheet" href="/assets/dropdown/css/style.css">
+  <link rel="stylesheet" href="/assets/theme/css/style.css">
+  <link rel="preload" as="style" href="/assets/mobirise/css/mbr-additional.css">
+  <link rel="stylesheet" href="/assets/mobirise/css/mbr-additional.css" type="text/css">
+
+
+
+</head>
+<body>
+  <section class="menu cid-qTkzRZLJNu" once="menu" id="menu1-o">
+
+
+
+    <nav class="navbar navbar-expand beta-menu navbar-dropdown align-items-center navbar-fixed-top navbar-toggleable-sm">
+        <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <div class="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </button>
+		<!--
+        <div class="menu-logo">
+            <div class="navbar-brand">
+                <span class="navbar-logo">
+                    <a href="https://mobirise.com">
+                         <img src="assets/images/logo2.png" alt="Mobirise" style="height: 3.8rem;">
+                    </a>
+                </span>
+                <span class="navbar-caption-wrap">
+                    <a class="navbar-caption text-white display-4" href="https://mobirise.com">
+                        MOBIRISE
+                    </a>
+                </span>
+            </div>
+        </div>
+		-->
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav nav-dropdown nav-right" data-app-modern-menu="true"><li class="nav-item">
+                    <a class="nav-link link text-white display-4"><span class="mobi-mbri mobi-mbri-user-2 mbr-iconfont mbr-iconfont-btn">&nbsp;Profile</span>
+                        </a>
+                </li></ul>
+
+        </div>
+    </nav>
+</section>
+<br><br><br>
+
+<section class="engine"><a href="https://mobirise.info/k">develop free website</a></section><section class="testimonials2 cid-rUb1RNte5E" id="testimonials2-p">
+
+
+
+
+
+    <div class="container">
+        <div class="media-container-row">
+            <div class="mbr-figure pr-lg-5" style="width: 90%;">
+              <img src="/assets/images/face1.jpg"> <!--USER PHOTO-->
+            </div>
+            <div class="media-content px-3 align-self-center mbr-white py-2">
+                    {{#each user_results}}
+                    <p class="mbr-author-name pt-4 mb-2 mbr-fonts-style display-7">
+                       {{user_name}}
+                    </p>
+                    <p class="mbr-author-desc mbr-fonts-style display-7">
+                       {{user_job}}
+                    </p>
+                    {{/each}}
+					<br>
+
+
+				<div class="row">
+				  <div class="col-6">
+					<div class="list-group" id="list-tab" role="tablist">
+					  <a class="list-group-item list-group-item-action active" id="list-home-list" data-toggle="list" href="#list-home" role="tab" aria-controls="home">Writers I like</a>
+					  <a class="list-group-item list-group-item-action" id="list-profile-list" data-toggle="list" href="#list-profile" role="tab" aria-controls="profile">Movie Cathegories I like to watch</a>
+					  <a class="list-group-item list-group-item-action" id="list-messages-list" data-toggle="list" href="#list-messages" role="tab" aria-controls="messages">Sports I like to do/watch</a>
+					  <a class="list-group-item list-group-item-action" id="list-settings-list" data-toggle="list" href="#list-settings" role="tab" aria-controls="settings">Musics I like to listen/play</a>
+					</div>
+				  </div>
+				  <div class="col-6">
+					<div class="tab-content" id="nav-tabContent">
+            <div class="tab-pane fade show active" id="list-home" role="tabpanel" aria-labelledby="list-home-list">
+            {{#each writers1}}{{writer_name}}{{/each}}
+            <br><br>
+            {{#each writers2}}{{writer_name}}{{/each}}
+            <br><br>
+            {{#each writers3}}{{writer_name}}{{/each}}
+            <br><br>
+            {{#each writers4}}{{writer_name}}{{/each}}
+            <br><br>
+            {{#each writers5}}{{writer_name}}{{/each}}
+          </div>
+
+					  <div class="tab-pane fade" id="list-profile" role="tabpanel" aria-labelledby="list-profile-list">
+              {{#each movies1}}{{movie_name}}{{/each}}
+              <br><br>
+              {{#each movies2}}{{movie_name}}{{/each}}
+              <br><br>
+              {{#each movies3}}{{movie_name}}{{/each}}
+              <br><br>
+              {{#each movies4}}{{movie_name}}{{/each}}
+              <br><br>
+              {{#each movies5}}{{movie_name}}{{/each}}
+            </div>
+
+					  <div class="tab-pane fade" id="list-messages" role="tabpanel" aria-labelledby="list-messages-list">
+              {{#each sports1}}{{sports_name}}{{/each}}
+              <br><br>
+              {{#each sports2}}{{sports_name}}{{/each}}
+              <br><br>
+              {{#each sports3}}{{sports_name}}{{/each}}
+              <br><br>
+              {{#each sports4}}{{sports_name}}{{/each}}
+              <br><br>
+              {{#each sports5}}{{sports_name}}{{/each}}
+            </div>
+
+					  <div class="tab-pane fade" id="list-settings" role="tabpanel" aria-labelledby="list-settings-list">
+              {{#each music1}}{{music_name}}{{/each}}
+              <br><br>
+              {{#each music2}}{{music_name}}{{/each}}
+              <br><br>
+              {{#each music3}}{{music_name}}{{/each}}
+              <br><br>
+              {{#each music4}}{{music_name}}{{/each}}
+              <br><br>
+              {{#each music5}}{{music_name}}{{/each}}
+            </div>
+
+					</div>
+				  </div>
+				</div>
+			</div>
+
+
+        </div>
+    </div>
+</section>
+
+
+  <script src="/assets/web/assets/jquery/jquery.min.js"></script>
+  <script src="/assets/popper/popper.min.js"></script>
+  <script src="/assets/bootstrap/js/bootstrap.min.js"></script>
+  <script src="/assets/tether/tether.min.js"></script>
+  <script src="/assets/smoothscroll/smooth-scroll.js"></script>
+  <script src="/assets/dropdown/js/nav-dropdown.js"></script>
+  <script src="/assets/dropdown/js/navbar-dropdown.js"></script>
+  <script src="/assets/touchswipe/jquery.touch-swipe.min.js"></script>
+  <script src="/assets/theme/js/script.js"></script>
+
+
+ <div id="scrollToTop" class="scrollToTop mbr-arrow-up"><a style="text-align: center;"><i class="mbr-arrow-up-icon mbr-arrow-up-icon-cm cm-icon cm-icon-smallarrow-up"></i></a></div>
+  </body>
+</html>
